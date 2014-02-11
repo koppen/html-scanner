@@ -1,4 +1,4 @@
-module HTML #:nodoc:
+module HtmlScanner #:nodoc:
   module Version #:nodoc:
 
     MAJOR = 0

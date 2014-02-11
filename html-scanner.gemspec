@@ -5,7 +5,7 @@ require 'html-scanner/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "html-scanner"
-  spec.version       = HtmlScanner::VERSION
+  spec.version       = HtmlScanner::Version::STRING
   spec.authors       = ["Jakob Skjerning"]
   spec.email         = ["jakob@mentalized.net"]
   spec.summary       = %q{TODO: Write a short summary. Required.}
@@ -17,6 +17,9 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
+
+  spec.add_runtime_dependency "actionpack"
+  spec.add_runtime_dependency "activesupport"
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"

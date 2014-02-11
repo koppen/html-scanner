@@ -1,4 +1,4 @@
-$LOAD_PATH.unshift "#{File.dirname(__FILE__)}/html-scanner"
+require 'active_support/all'
 
 module HTML
   extend ActiveSupport::Autoload

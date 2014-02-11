@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'html_scanner/version'
+require 'html-scanner/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "html_scanner"
+  spec.name          = "html-scanner"
   spec.version       = HtmlScanner::VERSION
   spec.authors       = ["Jakob Skjerning"]
   spec.email         = ["jakob@mentalized.net"]

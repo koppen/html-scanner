@@ -7,6 +7,8 @@ A set of classes to help removing tags from HTML.
 * HTML::LinkSanitizer
 * HTML::WhiteListSanitizer
 
+[![Build Status](https://travis-ci.org/koppen/html-scanner.png?branch=master)](https://travis-ci.org/koppen/html-scanner) [![Code Climate](https://codeclimate.com/github/koppen/html-scanner.png)](https://codeclimate.com/github/koppen/html-scanner) [![Coverage Status](https://coveralls.io/repos/koppen/html-scanner/badge.png)](https://coveralls.io/r/koppen/html-scanner)
+
 ## Installation
 
 Add this line to your application's Gemfile:

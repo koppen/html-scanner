@@ -1,5 +1,9 @@
 # HTML Scanner
 
+*DEPRECATION WARNING* : As of Rails 4.2, the Rails team has extracted html-scanner from ActionView and started shipping it is [rails-html-sanitizer](https://github.com/rails/rails-html-sanitizer). That is pretty much exactly what this project was intended to be. Use that instead.
+
+## Description
+
 A set of classes to help removing tags from HTML.
 
 * HTML::Sanitizer
